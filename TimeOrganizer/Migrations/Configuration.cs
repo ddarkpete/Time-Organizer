@@ -4,6 +4,7 @@ namespace TimeOrganizer.Migrations
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
+    using TimeOrganizer.Models;
 
     internal sealed class Configuration : DbMigrationsConfiguration<TimeOrganizer.Models.TimeOrganizerContext>
     {
