@@ -20,7 +20,7 @@ namespace TimeOrganizer.Controllers
         // GET: api/Activities
         public IQueryable<Activity> GetActivities()
         {
-            return db.Activities;
+            return db.Activities.Include(a => a.User); 
         }
 
         // GET: api/Activities/5

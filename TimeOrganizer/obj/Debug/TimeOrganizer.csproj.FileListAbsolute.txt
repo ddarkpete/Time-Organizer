@@ -74,3 +74,6 @@ c:\users\pmich\onedrive\dokumenty\visual studio 2017\Projects\TimeOrganizer\Time
 c:\users\pmich\onedrive\dokumenty\visual studio 2017\Projects\TimeOrganizer\TimeOrganizer\bin\Microsoft.AI.Web.xml
 c:\users\pmich\onedrive\dokumenty\visual studio 2017\Projects\TimeOrganizer\TimeOrganizer\obj\Debug\TimeOrganizer.dll
 c:\users\pmich\onedrive\dokumenty\visual studio 2017\Projects\TimeOrganizer\TimeOrganizer\obj\Debug\TimeOrganizer.pdb
+C:\Users\pmich\onedrive\dokumenty\visual studio 2017\Projects\TimeOrganizer\TimeOrganizer\obj\Debug\TimeOrganizer.csprojResolveAssemblyReference.cache
+C:\Users\pmich\onedrive\dokumenty\visual studio 2017\Projects\TimeOrganizer\TimeOrganizer\obj\Debug\TimeOrganizer.Migrations.Initial.resources
+C:\Users\pmich\onedrive\dokumenty\visual studio 2017\Projects\TimeOrganizer\TimeOrganizer\obj\Debug\TimeOrganizer.csproj.GenerateResource.Cache

@@ -10,13 +10,13 @@ namespace TimeOrganizer.Models
     {
         public int Id { get; set; }
 
-        [Required, StringLength(17, MinimumLength = 4), Display(Name = "Activity Name")]
+        [Required, StringLength(23, MinimumLength = 4), Display(Name = "Activity Name")]
         public string ActivityName { get; set; }
         
-        [Required, StringLength(120), Display(Name = "Activity Description")]
+        [StringLength(120), Display(Name = "Activity Description")]
         public string ActivityDescription { get; set; }
 
-        [Required, Range(0, int.MaxValue)]
+        [Required, Range(0, int.MaxValue), Display(Name = "Time")]
         public int ActivityTime { get; set; } //activity time in mins
 
         //Forgeign Key

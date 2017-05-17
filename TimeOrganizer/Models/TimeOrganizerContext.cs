@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Web;
+using System.Diagnostics;
 
 namespace TimeOrganizer.Models
 {
@@ -17,6 +18,7 @@ namespace TimeOrganizer.Models
     
         public TimeOrganizerContext() : base("name=TimeOrganizerContext")
         {
+            this.Database.Log = s => System.Diagnostics.Debug.WriteLine(s);
         }
 
         public System.Data.Entity.DbSet<TimeOrganizer.Models.User> Users { get; set; }

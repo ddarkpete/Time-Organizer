@@ -13,7 +13,7 @@ namespace TimeOrganizer.Models
         [Required, StringLength(15), Display(Name ="Nickname")]
         public string Nickname { get; set; }
 
-        [Required, StringLength(20, MinimumLength = 6), Display(Name = "Nickname")]
+        [Required, StringLength(20, MinimumLength = 6), Display(Name = "Password")]
         public string Password { get; set; }
 
     }
